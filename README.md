@@ -15,12 +15,21 @@
 - `pickle` による永続化処理、ファイル存在チェック、数値検証なども実装済み
 - CLIでの対話形式で操作可能
 
-## 📊 統計解析（授業課題）
-- Pythonとpandas・seaborn・statsmodelsを用いた以下の処理を実装：
-  - 分散分析（ANOVA）
-  - チューキー検定（Tukey HSD）
-  - t検定
-  - 箱ひげ図・棒グラフ・折れ線グラフなどの可視化
+## 📊 実験データの統計解析と可視化（研究室）
+
+- ラットの回転運動データを群ごとに集計し、箱ひげ図で可視化
+- 群間の違いについて t検定を実施（p-value をグラフ中に表示）
+- データフレーム操作・グラフ描画・統計処理をすべてPythonで実施
+
+### 🧪 Daily Wheel Rotations（箱ひげ図）
+
+![Wheel Boxplot](images/boxplot_wheel.png)
+
+---
+
+### 🧪 Open Arm Entries（棒グラフ）
+
+![Open Arm Entries](images/barplot_openarm.png)
 
 ## 📂 ファイル操作・処理
 - 行番号付きファイル出力
