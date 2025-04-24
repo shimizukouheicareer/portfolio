@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
 
-# データ入力（サンプルでもOK）
+# データ入力
 haa = [10000, 12000, 11500, 9000, 11000]
 laa = [3000, 4000, 3500, 2800, 3700]
 
